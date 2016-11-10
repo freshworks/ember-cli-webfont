@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/vitch/ember-cli-webfont.git",
+  "repository": "https://github.com/freshdesk/ember-cli-webfont.git",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
-    "ember-cli": "0.2.7",
+    "ember-cli": "2.9.0",
     "ember-cli-app-version": "0.3.3",
     "ember-cli-content-security-policy": "0.4.0",
     "ember-cli-dependency-checker": "^1.0.0",
@@ -28,11 +28,12 @@
     "ember-cli-inject-live-reload": "^1.3.0",
     "ember-cli-qunit": "0.3.13",
     "ember-cli-uglify": "^1.0.1",
-    "ember-data": "1.13.4",
+    "ember-data": "2.9.0",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
     "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "0.0.6"
+    "ember-try": "0.0.6",
+    "loader.js": "4.0.10"
   },
   "keywords": [
     "ember-addon",
@@ -44,7 +45,7 @@
   "dependencies": {
     "broccoli-funnel": "^0.2.3",
     "broccoli-merge-trees": "^0.2.1",
-    "broccoli-webfont": "^0.2.2",
+    "broccoli-webfont": "https://github.com/freshdesk/broccoli-webfont.git",
     "ember-cli-babel": "^5.0.0",
     "merge": "^1.2.0"
   },
